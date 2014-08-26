@@ -19,6 +19,11 @@
 		C7C20D0D19AC3A8F00F6BB49 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7C20CF519AC3A8F00F6BB49 /* UIKit.framework */; };
 		C7C20D1519AC3A8F00F6BB49 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C7C20D1319AC3A8F00F6BB49 /* InfoPlist.strings */; };
 		C7C20D1719AC3A8F00F6BB49 /* TicTacToeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C20D1619AC3A8F00F6BB49 /* TicTacToeTests.m */; };
+		C7C20D2219AC3AB300F6BB49 /* TTTMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C20D2119AC3AB300F6BB49 /* TTTMainViewController.m */; };
+		C7C20D2619AC3DEE00F6BB49 /* TTTSingleSquareView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C20D2519AC3DEE00F6BB49 /* TTTSingleSquareView.m */; };
+		C7C20D5919AC43CF00F6BB49 /* TTTBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C20D5819AC43CF00F6BB49 /* TTTBoardViewController.m */; };
+		C7C20D5C19AC575600F6BB49 /* TTTNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C20D5B19AC575600F6BB49 /* TTTNavigationController.m */; };
+		C7C20D5F19AC650000F6BB49 /* TTTAI.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C20D5E19AC650000F6BB49 /* TTTAI.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +53,17 @@
 		C7C20D1219AC3A8F00F6BB49 /* TicTacToeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TicTacToeTests-Info.plist"; sourceTree = "<group>"; };
 		C7C20D1419AC3A8F00F6BB49 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C7C20D1619AC3A8F00F6BB49 /* TicTacToeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TicTacToeTests.m; sourceTree = "<group>"; };
+		C7C20D2019AC3AB300F6BB49 /* TTTMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTMainViewController.h; sourceTree = "<group>"; };
+		C7C20D2119AC3AB300F6BB49 /* TTTMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTMainViewController.m; sourceTree = "<group>"; };
+		C7C20D2419AC3DEE00F6BB49 /* TTTSingleSquareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTSingleSquareView.h; sourceTree = "<group>"; };
+		C7C20D2519AC3DEE00F6BB49 /* TTTSingleSquareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTSingleSquareView.m; sourceTree = "<group>"; };
+		C7C20D5719AC43CF00F6BB49 /* TTTBoardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTBoardViewController.h; sourceTree = "<group>"; };
+		C7C20D5819AC43CF00F6BB49 /* TTTBoardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTBoardViewController.m; sourceTree = "<group>"; };
+		C7C20D5A19AC575600F6BB49 /* TTTNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTNavigationController.h; sourceTree = "<group>"; };
+		C7C20D5B19AC575600F6BB49 /* TTTNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTNavigationController.m; sourceTree = "<group>"; };
+		C7C20D5D19AC650000F6BB49 /* TTTAI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTAI.h; sourceTree = "<group>"; };
+		C7C20D5E19AC650000F6BB49 /* TTTAI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTAI.m; sourceTree = "<group>"; };
+		C7C20D6019AC874700F6BB49 /* TTTCommons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTCommons.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +125,17 @@
 			children = (
 				C7C20D0019AC3A8F00F6BB49 /* TTTAppDelegate.h */,
 				C7C20D0119AC3A8F00F6BB49 /* TTTAppDelegate.m */,
+				C7C20D5A19AC575600F6BB49 /* TTTNavigationController.h */,
+				C7C20D5B19AC575600F6BB49 /* TTTNavigationController.m */,
+				C7C20D2019AC3AB300F6BB49 /* TTTMainViewController.h */,
+				C7C20D2119AC3AB300F6BB49 /* TTTMainViewController.m */,
+				C7C20D5719AC43CF00F6BB49 /* TTTBoardViewController.h */,
+				C7C20D5819AC43CF00F6BB49 /* TTTBoardViewController.m */,
+				C7C20D5D19AC650000F6BB49 /* TTTAI.h */,
+				C7C20D5E19AC650000F6BB49 /* TTTAI.m */,
+				C7C20D2419AC3DEE00F6BB49 /* TTTSingleSquareView.h */,
+				C7C20D2519AC3DEE00F6BB49 /* TTTSingleSquareView.m */,
+				C7C20D6019AC874700F6BB49 /* TTTCommons.h */,
 				C7C20D0319AC3A8F00F6BB49 /* Images.xcassets */,
 				C7C20CF819AC3A8F00F6BB49 /* Supporting Files */,
 			);
@@ -240,7 +267,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7C20D5C19AC575600F6BB49 /* TTTNavigationController.m in Sources */,
+				C7C20D5919AC43CF00F6BB49 /* TTTBoardViewController.m in Sources */,
+				C7C20D2219AC3AB300F6BB49 /* TTTMainViewController.m in Sources */,
 				C7C20CFE19AC3A8F00F6BB49 /* main.m in Sources */,
+				C7C20D5F19AC650000F6BB49 /* TTTAI.m in Sources */,
+				C7C20D2619AC3DEE00F6BB49 /* TTTSingleSquareView.m in Sources */,
 				C7C20D0219AC3A8F00F6BB49 /* TTTAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
